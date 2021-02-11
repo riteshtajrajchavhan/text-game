@@ -320,6 +320,11 @@ health.visible=false;
  if(mousePressedOver(n1)){
    gamestate=level1
  }
+  
+  if(touches.length > 0 ) {
+  gamestate=level1
+   touches = [];
+}
 
 }
 
