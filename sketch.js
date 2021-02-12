@@ -331,7 +331,13 @@ health.visible=false;
 
 
 else if(gamestate === level1){
-
+ 
+  if(touches.length = up) {
+    car.y=car.y-30;
+   touches = [];
+}
+  
+  
   in1.visible=false;
 n1.visible=false;
 
